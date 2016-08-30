@@ -14,22 +14,19 @@
 
 ### Install
 
-**Binaries**
-
-See [the latest release](https://github.com/jpillora/cloud-torrent/releases/latest) or download it now with `curl i.jpillora.com/cloud-torrent | bash`
 
 **Source**
 
 *[Go](https://golang.org/dl/) is required to install from source*
 
 ``` sh
-$ go get -v github.com/adiev13/cloud-torrent
+$ go get -v github.com/fastrapidleech/cloud-torrent
 ```
 
 **Docker**
 
 ``` sh
-$ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads adiev13/cloud-torrent
+$ docker run -d -p 3000:3000 -v /path/to/my/downloads:/downloads fastrapidleech/cloud-torrent
 ```
 
 **Heroku**
